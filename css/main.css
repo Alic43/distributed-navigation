@@ -9,9 +9,37 @@ html {
 }
 
 header {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2e2e2;
 }
 
 img {
-  width: 100%;
+  width: 2rem;
+  order: -1;
+  margin: .5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0 auto;
+  font-size: 1.125rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.125rem;
+  display: flex;
+}
+
+nav a,
+nav a:visited {
+  color: #0074d9;
+
 }
