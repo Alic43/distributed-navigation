@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  background-color: #fff;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -47,5 +51,6 @@ nav a:visited {
 
 nav a:hover,
 nav a:focus {
-
+ background-color: inherit;
+ border-color: inherit;
 }
