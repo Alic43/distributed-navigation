@@ -8,8 +8,9 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   background-color: #fff;
+  margin: 0;
 }
 
 header {
@@ -51,7 +52,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:focus {
- background-color: #fff;
- border-color: #000;
- color: #000;
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
 }
