@@ -51,6 +51,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:focus {
- background-color: inherit;
- border-color: inherit;
+ background-color: #fff;
+ border-color: #000;
+ color: #000;
 }
